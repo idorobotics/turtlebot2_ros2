@@ -1,0 +1,25 @@
+repositories:
+  kobuki-base/cmd_vel_mux:
+    type: git
+    url: https://github.com/kobuki-base/cmd_vel_mux.git
+    version: devel
+  kobuki-base/kobuki_core:
+    type: git
+    url: https://github.com/kobuki-base/kobuki_core.git
+    version: devel 
+  kobuki-base/kobuki_ros:
+    type: git
+    url: https://github.com/kobuki-base/kobuki_ros.git
+    version: devel
+  kobuki-base/kobuki_ros_interfaces:
+    type: git
+    url: https://github.com/kobuki-base/kobuki_ros_interfaces.git
+    version: devel
+  stonier/ecl_core:
+    type: git
+    url: https://github.com/stonier/ecl_core.git
+    version: devel
+  stonier/ecl_lite:
+    type: git
+    url: https://github.com/stonier/ecl_lite.git
+    version: devel
