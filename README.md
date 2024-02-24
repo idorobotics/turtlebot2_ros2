@@ -1,8 +1,8 @@
 # turtlebot2_ros2
-This project contains a minimal example for setting up ROS 2 Humble on the Kobuki [Turtlebot 2 platform](https://www.turtlebot.com/). Teleoperation using the keyboard and a joystick controller is demonstrated. 
+This project contains a minimal example for setting up ROS 2 Humble on the Kobuki [TurtleBot 2 platform](https://www.turtlebot.com/). Teleoperation using the keyboard and a joystick controller is demonstrated. 
 For a comprehensive guide, see [idorobotics.com](https://idorobotics.com/2024/02/20/ros2-on-kobuki-turtlebot/).
 ## Setup
-To setup the Turtlebot 2 mobile robot base:
+To setup the TurtleBot 2 mobile robot base:
 - Install the velocity smoother and sophus packages:
 ```sudo apt-get install ros-humble-kobuki-velocity-smoother ros-humble-sophus```
 - In a ROS 2 workspace, clone this repository (which adds the kobuki_core, kobuki_ros, kobuki_ros_interfaces, cmd_vel_mux, ecl_core and ecl_lite packages):
@@ -26,4 +26,4 @@ To setup the Turtlebot 2 mobile robot base:
    If you're using a different joystick like PS3 then run:
 ```ros2 launch teleop_twist_joy teleop-launch.py joy_config:='ps3' joy_vel:='commands/velocity'```
 
-The Kobuki Turtlebot 2 is now fully migrated to ROS 2 and is ready for more complex navigation tasks. 
+The Kobuki TurtleBot 2 is now fully migrated to ROS 2 and is ready for more complex navigation tasks. 
